@@ -374,8 +374,6 @@ class Bot(Bot):
                 )
                 await ctx.respond(embed=embed_msg, delete_after=5)
 
-        self.run(self.token)
-
     async def send_commands_list(self, ctx: commands.Context):
         command_list_msg_title = "🎶 **Lista de comandos**"
         commands_list_msg_description = "**/play** <nome da música> - Coloca uma música solicitada na fila\n\
